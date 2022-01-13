@@ -1,0 +1,19 @@
+body{
+    
+    background-image: url(../images/background_image.jpg);
+}
+#container {
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+#header{
+    text-align: center;
+    color: white;
+    
+}
+.head{
+    font-family: "Sigmar One",cursive;
+}
+#head-span{
+    color: red;
+}
