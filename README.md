@@ -2,7 +2,7 @@
 - [Personal Website1](#personal-website1)
   - It is a personal website work with basic elements and properties.
 - [Survey Form](#survey-form)
-  - It is a personal website work with basic elements and properties.
+  - In this study, I created a survey form that will allow viewers to comment on the movie later and watch the types of content they like within the information they provide.
 
 
 
