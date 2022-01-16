@@ -1,5 +1,5 @@
-.body{
-    font-size: ;
+body{
+    background:linear-gradient(to right, rgb(247, 236, 230),#fefefe  ,rgb(247, 236, 230) );
 }
 
 #container{
@@ -54,4 +54,25 @@ img{
     width: 100%;
     display: block;
     margin: 2rem 0;
+}
+
+#make hr{
+    margin-top: -1rem;
+}
+#make li h3{
+    box-sizing: border-box;
+    margin-bottom: -0.6rem;
+}
+
+#field{
+    display: flex;
+    justify-content: space-between;
+}
+#field p{
+    text-align: center;
+    margin: 0.2rem;
+    padding:  0.3rem;
+}
+fieldset{
+    width: 100%;
 }
