@@ -1,0 +1,28 @@
+.body{
+    font-size: ;
+}
+
+#container{
+    width: 40%;
+    margin: auto;
+    background-color: aqua;
+}
+
+
+.blogs{
+    margin: 0;
+    padding:  0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog{
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 2rem;
+}
+.blog p{
+    margin-top:-1rem;
+}
+
