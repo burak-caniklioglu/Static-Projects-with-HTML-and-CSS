@@ -22,4 +22,4 @@
 <br>
 
 ## Survey Form Bootcamp
-<img src="./Project-Survey-Form-Bootcamp/images/SS.PNG" width = "100%">
+<img src="./index.html" width = "100%">
