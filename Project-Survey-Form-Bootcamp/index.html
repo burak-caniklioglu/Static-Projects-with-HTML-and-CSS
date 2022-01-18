@@ -19,6 +19,11 @@
       href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Pacifico&family=Sigmar+One&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
   </head>
   <body>
     <div>
@@ -84,8 +89,15 @@
 
               <div id="blogs">
                 <div class="button">
-                  <input type="radio" id="a25" name="check-substitution-2" checked/>
-                  <label class="btn btn-default" for="a25" >Definitely, Yes</label>
+                  <input
+                    type="radio"
+                    id="a25"
+                    name="check-substitution-2"
+                    checked
+                  />
+                  <label class="btn btn-default" for="a25"
+                    >Definitely, Yes</label
+                  >
                 </div>
                 <div class="button">
                   <input type="radio" id="a50" name="check-substitution-2" />
@@ -96,10 +108,11 @@
                   <label class="btn btn-default" for="a75">Note sure</label>
                 </div>
                 <div class="button">
-                    <input type="radio" id="a100" name="check-substitution-2" />
-                    <label class="btn btn-default" for="a100">Definitely, No</label>
+                  <input type="radio" id="a100" name="check-substitution-2" />
+                  <label class="btn btn-default" for="a100"
+                    >Definitely, No</label
+                  >
                 </div>
-
               </div>
               <br />
             </div>
@@ -117,13 +130,29 @@
 
             <div id="improve">
               <label for=""
-                >What would you like to see improved? (Check all that
-                apply)</label
-              >
-              <input type="checkbox" name="" id="" />Front-end Projects <br />
-              <input type="checkbox" name="" id="" />Back-end Projects <br />
-              <input type="checkbox" name="" id="" />Data Science <br />
-              <input type="checkbox" name="" id="" />Additional Courses
+                >What would you like to see improved?
+                <span>(Check all that apply)</span>
+              </label>
+                    <div id="imp">
+                        <div class="check">
+                            <input type="checkbox" id="b25" name="check1" />
+                            <label class="check check-default" for="b25">Front-end Projects</label>
+                        </div>
+                        <div class="check">
+                            <input type="checkbox" id="b50" name="check1" />
+                            <label class="check check-default" for="b50">Back-end Projects</label>
+                        </div>
+                        <div class="check">
+                            <input type="checkbox" id="b75" name="check1" />
+                            <label class="check check-default" for="b75">Data Science</label>
+                        </div>
+                        <div class="check">
+                            <input type="checkbox" id="b100" name="check1" />
+                            <label class="check check-default" for="b100">Additional Courses</label>
+                        </div>
+                        
+                    </div>
+              
             </div>
 
             <div id="comment">
