@@ -1,99 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Survey Form</title>
-    <link rel="stylesheet" href="./css/style.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Sigmar+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Pacifico&family=Sigmar+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div>
-        <div id="main"></div>
-        
-        <div id="container">
-            <header>
-                <h1>Clarusway Survey Form</h1>
-                <p>Thank you for taking the time to help us improve the platform</p>
-            </header>
-            <form action="./result.html" method="get"><div id="name">
-                <label class="input" for="name">Name<span>*</span></label>
-                <input type="text" name="username" id="name" required>
+      <div id="main"></div>
+
+      <div id="container">
+        <div id="temp">
+          <header>
+            <h1>Clarusway Survey Form</h1>
+            <p>Thank you for taking the time to help us improve the platform</p>
+          </header>
+          <form action="./result.html" method="get">
+            <div id="name">
+              <label class="input" for="name">Name<span>*</span></label>
+              <input
+                type="text"
+                name="username"
+                id="name"
+                placeholder="Enter Your Name"
+                required
+              />
             </div>
-            
+
             <div id="surname">
-                <label for="surname">Surname<span>*</span></label>
-                <input type="text" name="surname" id="surname" required>
+              <label for="surname">Surname<span>*</span></label>
+              <input
+                type="text"
+                name="surname"
+                id="surname"
+                placeholder="Enter Your Surname"
+                required
+              />
             </div>
 
             <div id="email">
-                <label for="mail">Mail<span>*</span></label>
-                <input type="email" name="mail" id="mail" placeholder="example@example.com"  required>
+              <label for="mail">Mail<span>*</span></label>
+              <input
+                type="email"
+                name="mail"
+                id="mail"
+                placeholder="user@clarusway.com"
+                required
+              />
             </div>
 
             <div id="list">
-                <label for="">Which option best describes your current role?</label>
-                <select name="content" id="content">
-                    <option value="" selected>Select current role</option>
-                    <option value="">Student</option>
-                    <option value="">Teacher</option>
-                    <option value="">Full Time Job</option>
-                    <option value="">Part Time Job</option>
-                    <option value="">Full Time Learner</option>
-                    <option value="">Prefer not to Say</option>        
-                </select>
+              <label for=""
+                >Which option best describes your current role?</label
+              >
+              <select name="content" id="content">
+                <option value="" selected>Select current role</option>
+                <option value="">Student</option>
+                <option value="">Teacher</option>
+                <option value="">Full Time Job</option>
+                <option value="">Part Time Job</option>
+                <option value="">Full Time Learner</option>
+                <option value="">Prefer not to Say</option>
+              </select>
             </div>
-
+            <br />
             <div id="recommend">
-                <p>Would you recommend Clarusway to a friend</p>
-                <input type="radio" name="" id="" checked>Definitely, Yes <br>
-                <input type="radio" name="" id="">Maybe <br>
-                <input type="radio" name="" id="">Not sure <br>
-                <input type="radio" name="" id="">Definitely, No <br>
+              <label for="">Would you recommend Clarusway to a friend?</label>
+
+              <div id="blogs">
+                <div class="button">
+                  <input type="radio" id="a25" name="check-substitution-2" checked/>
+                  <label class="btn btn-default" for="a25" >Definitely, Yes</label>
+                </div>
+                <div class="button">
+                  <input type="radio" id="a50" name="check-substitution-2" />
+                  <label class="btn btn-default" for="a50">Maybe</label>
+                </div>
+                <div class="button">
+                  <input type="radio" id="a75" name="check-substitution-2" />
+                  <label class="btn btn-default" for="a75">Note sure</label>
+                </div>
+                <div class="button">
+                    <input type="radio" id="a100" name="check-substitution-2" />
+                    <label class="btn btn-default" for="a100">Definitely, No</label>
+                </div>
+
+              </div>
+              <br />
             </div>
 
             <div id="list2">
-                <label for="">What is your favorite feature of Clarusway?</label>
-                <select name="feature" id="feature">
-                    <option value="" selected>Select an opinion</option>
-                    <option value="">Courses</option>
-                    <option value="">Projects</option>
-                    <option value="">Comunity</option>
-                    <option value="">Mentors</option>       
-                </select>
+              <label for="">What is your favorite feature of Clarusway?</label>
+              <select name="feature" id="feature">
+                <option value="" selected>Select an opinion</option>
+                <option value="">Courses</option>
+                <option value="">Projects</option>
+                <option value="">Comunity</option>
+                <option value="">Mentors</option>
+              </select>
             </div>
 
             <div id="improve">
-                <label for="">What would you like to see improved? (Check all that apply)</label>
-                <input type="checkbox" name="" id="">Front-end Projects <br>
-                <input type="checkbox" name="" id="">Back-end Projects <br>
-                <input type="checkbox" name="" id="">Data Science <br>
-                <input type="checkbox" name="" id="">Additional Courses 
+              <label for=""
+                >What would you like to see improved? (Check all that
+                apply)</label
+              >
+              <input type="checkbox" name="" id="" />Front-end Projects <br />
+              <input type="checkbox" name="" id="" />Back-end Projects <br />
+              <input type="checkbox" name="" id="" />Data Science <br />
+              <input type="checkbox" name="" id="" />Additional Courses
             </div>
 
             <div id="comment">
-                <label for="">Any comment or suggestions?</label> <br>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Enter your comment here.. Thanks for your comments " style="resize: none;"></textarea>
+              <label for="">Any comment or suggestions?</label> <br />
+              <textarea
+                name=""
+                id=""
+                cols="10"
+                rows="5"
+                placeholder="Enter your comment here.. Thanks for your comments "
+                style="resize: none"
+              ></textarea>
             </div>
 
             <div id="btn">
-                <input type="submit" value="Submit">
+              <input type="submit" value="Submit" />
             </div>
-        </form>
-            
-            
-        </div> 
+          </form>
+        </div>
+      </div>
     </div>
-    
-
-
-
-
-
-    
-        
-    
-</body>
+  </body>
 </html>
