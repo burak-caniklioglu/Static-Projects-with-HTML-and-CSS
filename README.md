@@ -9,18 +9,20 @@
 
 
 ## Personal Website1
-<a href="./Personal_Website_1/html/index.html"><img src="./Personal_Website_1/images/screenshot.png" width = "100%"></a>
+<a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Personal_Website_1/html/index.html"><img src="./Personal_Website_1/images/screenshot.png" width = "100%"></a>
 
 
 <br>
 <br>
 
 ## Survey Form
-<img src="./Project-001-Survey-Form/images/SS.JPG" width = "100%">
+<a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Project-001-Survey-Form/index.html"><img src="./Project-001-Survey-Form/images/SS.JPG" width = "100%"></a>
+
 
 
 <br>
 <br>
 
 ## Survey Form Bootcamp
-<img src="./Project-Survey-Form-Bootcamp/images/SS.PNG" width = "100%">
+<a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Project-Survey-Form-Bootcamp/index.html"><img src="./Project-Survey-Form-Bootcamp/images/SS.PNG" width = "100%"></a>
+
