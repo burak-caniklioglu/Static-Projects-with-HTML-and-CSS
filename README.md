@@ -9,7 +9,8 @@
 
 
 ## Personal Website1
-<img src="./Personal_Website_1/images/screenshot.png" width = "100%">
+<a href="./Personal_Website_1/index.html"><img src="./Personal_Website_1/images/screenshot.png" width = "100%"></a>
+
 
 <br>
 <br>
