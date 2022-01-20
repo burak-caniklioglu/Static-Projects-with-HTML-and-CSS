@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Survey Form</title>
+    <link rel="shortcut icon" href="images/cw-favicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -73,14 +74,14 @@
               <label for=""
                 >Which option best describes your current role?</label
               >
-              <select name="content" id="content">
-                <option value="" selected>Select current role</option>
-                <option value="">Student</option>
-                <option value="">Teacher</option>
-                <option value="">Full Time Job</option>
-                <option value="">Part Time Job</option>
-                <option value="">Full Time Learner</option>
-                <option value="">Prefer not to Say</option>
+              <select name="content" id="content" required>
+                <option value="" selected disabled >Select current role</option>
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="full time">Full Time Job</option>
+                <option value="part time">Part Time Job</option>
+                <option value="full learner">Full Time Learner</option>
+                <option value="not say">Prefer not to Say</option>
               </select>
             </div>
             <br />
@@ -92,23 +93,24 @@
                   <input
                     type="radio"
                     id="a25"
-                    name="check-substitution-2"
+                    name="check-substitution"
                     checked
+                    value="yes"
                   />
                   <label class="btn btn-default" for="a25"
                     >Definitely, Yes</label
                   >
                 </div>
                 <div class="button">
-                  <input type="radio" id="a50" name="check-substitution-2" />
+                  <input type="radio" id="a50" name="check-substitution" value="maybe"/>
                   <label class="btn btn-default" for="a50">Maybe</label>
                 </div>
                 <div class="button">
-                  <input type="radio" id="a75" name="check-substitution-2" />
+                  <input type="radio" id="a75" name="check-substitution" value="not sure" />
                   <label class="btn btn-default" for="a75">Note sure</label>
                 </div>
                 <div class="button">
-                  <input type="radio" id="a100" name="check-substitution-2" />
+                  <input type="radio" id="a100" name="check-substitution" value="no"/>
                   <label class="btn btn-default" for="a100"
                     >Definitely, No</label
                   >
@@ -118,13 +120,13 @@
             </div>
 
             <div id="list2">
-              <label for="">What is your favorite feature of Clarusway?</label>
-              <select name="feature" id="feature">
-                <option value="" selected>Select an opinion</option>
-                <option value="">Courses</option>
-                <option value="">Projects</option>
-                <option value="">Comunity</option>
-                <option value="">Mentors</option>
+              <label for="feature">What is your favorite feature of Clarusway?</label>
+              <select name="feature" id="feature" required>
+                <option value="" selected disabled>Select an opinion</option>
+                <option value="courses">Courses</option>
+                <option value="projects">Projects</option>
+                <option value="comunity">Comunity</option>
+                <option value="mentors">Mentors</option>
               </select>
             </div>
 
@@ -135,19 +137,19 @@
               </label>
                     <div id="imp">
                         <div class="check">
-                            <input type="checkbox" id="b25" name="check1" />
+                            <input type="checkbox" id="b25" name="check1" value="frontend" />
                             <label class="check check-default" for="b25">Front-end Projects</label>
                         </div>
                         <div class="check">
-                            <input type="checkbox" id="b50" name="check1" />
+                            <input type="checkbox" id="b50" name="check2" value="backend"/>
                             <label class="check check-default" for="b50">Back-end Projects</label>
                         </div>
                         <div class="check">
-                            <input type="checkbox" id="b75" name="check1" />
+                            <input type="checkbox" id="b75" name="check3" value="data"/>
                             <label class="check check-default" for="b75">Data Science</label>
                         </div>
                         <div class="check">
-                            <input type="checkbox" id="b100" name="check1" />
+                            <input type="checkbox" id="b100" name="check4" value="add-courses"/>
                             <label class="check check-default" for="b100">Additional Courses</label>
                         </div>
                         
