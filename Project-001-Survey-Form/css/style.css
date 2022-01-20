@@ -30,6 +30,12 @@ body{
     
     
 }
+.age::-webkit-outer-spin-button,.age::-webkit-inner-spin-button {
+    display: none;
+}
+        
+      
+
 
 label{
     color: white;
