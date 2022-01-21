@@ -6,7 +6,9 @@
 
 - [Survey Form Bootcamp](#survey-form-bootcamp)
   - It was created to receive feedback from students and mentors participating in the bootcamp.
-
+  
+- [Perfect Cheesecake Recipe](#perfect-cheesecake-recipe)
+  - A cheesecake recipe that will allow you to have a good time with your friends.
 
 ## Personal Website1
 <a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Personal_Website_1/html/index.html"><img src="./Personal_Website_1/images/screenshot.png" width = "100%"></a>
@@ -26,3 +28,8 @@
 ## Survey Form Bootcamp
 <a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Project-Survey-Form-Bootcamp/index.html"><img src="./Project-Survey-Form-Bootcamp/images/SS.PNG" width = "100%"></a>
 
+<br>
+<br>
+
+## Perfect Cheesecake Recipe
+<a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS//Perfect_Cheesecake/index.html"><img src="./Perfect_Cheesecake/images/SS.PNG" width = "100%"></a>
