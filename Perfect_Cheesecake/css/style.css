@@ -1,11 +1,41 @@
 body{
     background:linear-gradient(to right, rgb(247, 236, 230),#fefefe  ,rgb(247, 236, 230) );
+    font-size: 18px;
+    word-spacing: 0.3rem;
+    font-family: 'Lato', sans-serif;
 }
 
-#container{
-    width: 40%;
-    margin: auto;
+@media screen and (min-width:1366px) {
+    #container{
+        max-width: 720px;
+        margin: auto;
+        
+}
+}
+
+@media screen and (min-width:960px) and (max-width:1365px){
+    #container{
+        max-width:600px ;
+        margin: auto;
+        
+}
+}
+
     
+@media screen and (min-width:720px) and (max-width:960px){
+    #container{
+        width: 500px;
+        margin: auto;
+        
+}
+}
+
+@media screen and (min-width:360px) and (max-width:719px){
+    #container{
+        width: 100%;
+        margin: auto;
+        
+}
 }
 
 
@@ -37,7 +67,10 @@ body{
 
 #ingre li{
     padding-bottom: 0.8rem;
+    list-style-type:square;
+    
 }
+
 #ingre hr{
     margin-top: -1rem;
 }
@@ -75,4 +108,8 @@ img{
 }
 fieldset{
     width: 100%;
+}
+
+ol li::marker{
+    color: rgb(234, 0, 255);
 }
