@@ -10,6 +10,9 @@
 - [Perfect Cheesecake Recipe](#perfect-cheesecake-recipe)
   - A cheesecake recipe that will allow you to have a good time with your friends.
 
+- [Google Landing Page](#google-landing-page)
+  - I tried to create Google's new tab page
+
 ## Personal Website1
 <a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Personal_Website_1/html/index.html"><img src="./Personal_Website_1/images/screenshot.png" width = "100%"></a>
 
@@ -32,4 +35,10 @@
 <br>
 
 ## Perfect Cheesecake Recipe
-<a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS//Perfect_Cheesecake/index.html"><img src="./Perfect_Cheesecake/images/SS.PNG" width = "100%"></a>
+<a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Perfect_Cheesecake/index.html"><img src="./Perfect_Cheesecake/images/SS.PNG" width = "100%"></a>
+
+<br>
+<br>
+
+## Google Landing Page
+<a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Google-Landing-Page/index.html"><img src="./Google-Landing-Page/images/SS.PNG" width = "100%"></a>
