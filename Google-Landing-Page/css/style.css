@@ -6,14 +6,7 @@
 
 }
 
-#about-div{
-    
-    
-}
 
-#gmail-div{
-    
-}
 .about,.store,.gmail,.images,.att,.sign{
     padding: 0.5rem;
     
@@ -25,8 +18,9 @@
 
 .att{
     position: relative;
-    bottom: 5px;
+    bottom: 0.5rem;
 }
+
 header{
     display: flex;
     justify-content: space-between;
@@ -98,33 +92,46 @@ header{
     outline: none;
 }
 
-#path div{
-    width: 4rem;
-    height: 4rem;
+#path > div{
+    width: 6em;
+    height: 6em;
     
+    border-radius: 6px;
+    cursor: pointer;
 
+}
+#path >div:hover{
+    background-color: rgb(230, 227, 227);
 }
 #path{
     padding-top: 6rem;
-    padding-left: 2rem;
+    padding-left: 1rem;
     margin: auto;
     width: 34rem;
     display: grid;
-    grid-template:4rem / 1fr 1fr 1fr 1fr 1fr;
-    grid-row-gap: 1rem;
-
+    grid-template:6rem / 1fr 1fr 1fr 1fr 1fr;
     
-}
-.path1 img{
-    width: 1.5rem;
-    display: block;
-    padding-top: 1rem;
-    margin: auto;
+   
     
 }
 .jar{
-    position: absolute;
-    z-index: 1;
+    background-color: rgb(231, 236, 236);
+    width: 2.2rem;
+    height: 2.2rem;
+    margin: 1.7rem auto 0 auto;
+    border-radius: 2rem;
+
+}
+.path1 img,.path2 img,.path4 img,.path6 img,.path7 img,.path8 img,.path9 img,.path10 img{
+    width: 1.5rem;
+    display: block;
+    padding-top: 0.3rem;
+    margin: auto;
     
-    background-color: aqua;
+}
+.path3 img,.path5 img{
+    width: 1.7rem;
+    display: block;
+    padding-top: 0.45rem;
+    margin: auto;
 }
