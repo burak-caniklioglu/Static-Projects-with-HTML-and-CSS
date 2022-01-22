@@ -6,9 +6,9 @@
 
 }
 
-
 .about,.store,.gmail,.images,.att,.sign{
     padding: 0.5rem;
+    
     
 }
 
@@ -19,6 +19,18 @@
 .att{
     position: relative;
     bottom: 0.5rem;
+    opacity: 0.5;
+}
+.sign{
+    background-color: rgb(15, 117, 250);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.sign:hover{
+    background-color:rgb(89, 160, 253) ;
 }
 
 header{
@@ -26,7 +38,20 @@ header{
     justify-content: space-between;
     margin-top: 1.25rem;
     padding: 0 1rem;
-    font-size: 14px;
+    font-size: 13px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(78, 82, 87);
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+}
+.signin:hover{
+    text-decoration: none;
     
 }
 
@@ -92,22 +117,37 @@ header{
     outline: none;
 }
 
-#path > div{
-    width: 6em;
+#path a >div{
+    width: 7em;
     height: 6em;
+  
     
+    
+    
+
+}
+#path > a{
+    text-decoration: none;
+    width: 100%;
+    color: black;
+    display: block;
+    
+
+    
+}
+
+#path a:hover{
+    background-color: rgb(230, 227, 227);
     border-radius: 6px;
     cursor: pointer;
 
 }
-#path >div:hover{
-    background-color: rgb(230, 227, 227);
-}
 #path{
-    padding-top: 6rem;
-    padding-left: 1rem;
+    padding-top: 4rem;
+    
     margin: auto;
-    width: 34rem;
+    
+    width: 36rem;
     display: grid;
     grid-template:6rem / 1fr 1fr 1fr 1fr 1fr;
     
@@ -115,23 +155,36 @@ header{
     
 }
 .jar{
-    background-color: rgb(231, 236, 236);
-    width: 2.2rem;
-    height: 2.2rem;
-    margin: 1.7rem auto 0 auto;
+    background-color: rgba(241, 243, 244, 1);
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem auto 0 auto;
     border-radius: 2rem;
 
 }
 .path1 img,.path2 img,.path4 img,.path6 img,.path7 img,.path8 img,.path9 img,.path10 img{
     width: 1.5rem;
     display: block;
-    padding-top: 0.3rem;
+    padding-top: 0.6rem;
     margin: auto;
     
 }
 .path3 img,.path5 img{
     width: 1.7rem;
     display: block;
-    padding-top: 0.45rem;
+    padding-top: 0.8rem;
     margin: auto;
+}
+
+.site{
+    width: 100%;
+    font-size: 0.8rem;
+    opacity: 0.9;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-top: 1rem;
+    
+    
 }
