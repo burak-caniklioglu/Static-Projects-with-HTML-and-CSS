@@ -94,6 +94,7 @@
 
 
 p,h1,h2 {
+    letter-spacing: 1px;
     font-family: 'Dosis', sans-serif;
     display: block;
     margin-block-start: 1rem;
@@ -101,3 +102,7 @@ p,h1,h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+@media only screen and (max-width:580px){
+.img{
+overflow-x: hidden;
+}}
