@@ -13,7 +13,7 @@
 - [Google Landing Page](#google-landing-page)
   - I tried to create Google's new tab page
 
-- [Read Newborn's Mind](#read-newborn's-mind)
+- [Read Newborn's Mind](#read-newborns-mind)
   - A website to understand the behavior of newborn babies that I created with the concept of parallax.
 ## Personal Website1
 <a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Personal_Website_1/html/index.html"><img src="./Personal_Website_1/images/screenshot.png" width = "100%"></a>
