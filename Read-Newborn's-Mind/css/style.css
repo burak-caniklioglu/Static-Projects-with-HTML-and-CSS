@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#first >img{
+    width: 100%;
+    
+}
+div{
+    
+  
+    color: green;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 3rem;
+}
