@@ -28,13 +28,13 @@ header{
     border-top: 1px solid black;
     border-left: 1px solid black;
     border-right: 1px solid black;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 #first{
     border: 1px solid black;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
     position: relative;
     height: 300px;
     background-color: #f0f4f5;
@@ -72,12 +72,14 @@ td{
     font-family: 'Poppins', sans-serif;
     margin: 1rem;
     font-size: 1.5rem;
+    font-weight: 1000;
+
 }
 .title{
     margin: 1rem;
     font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
     padding-right: 2rem;
-    color:#eb4d4b ;
-    font-weight: 600;
+    color:#ee1714 ;
+    font-weight: 1000;
 }
