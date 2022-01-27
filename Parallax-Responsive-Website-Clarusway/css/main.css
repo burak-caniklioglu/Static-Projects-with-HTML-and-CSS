@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+body .img {
+  position: relative;
+  min-height: 100vh;
+  opacity: 0.7;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body .img .header {
+  position: relative;
+  top: 50vh;
+  text-align: center;
+  font-size: 3rem;
+}
+
+body .img .header span {
+  padding: 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  outline: 0.6rem inset purple;
+  outline-offset: 1rem;
+  line-height: 2.5rem;
+  background-color: black;
+  color: white;
+  letter-spacing: 0.5rem;
+}
+
+body .bg {
+  background-image: url(../images/bg.jpg);
+}
+
+body .sec {
+  text-align: center;
+  padding: 5%;
+  line-height: 2rem;
+  opacity: 0.8;
+}
+
+body .sec h2 {
+  margin-bottom: 1rem;
+}
+
+body .section-1 {
+  background-color: #f1f0ef;
+}
+
+body .bg1 {
+  background-image: url(../images/bg1.jpg);
+}
+
+body .bg1 article {
+  position: relative;
+  top: 50vh;
+  text-align: center;
+  font-size: 3rem;
+}
+
+body .bg1 article img {
+  width: 30%;
+}
+
+body .section-2 {
+  background-color: black;
+  color: white;
+}
+
+body .bg2 {
+  background-image: url(../images/bg2.jpg);
+}
+
+body .bg2 article {
+  position: relative;
+  top: 50vh;
+  text-align: center;
+  font-size: 3rem;
+}
+
+body .bg2 article span {
+  padding: 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  outline: 0.6rem inset purple;
+  outline-offset: 1rem;
+  line-height: 2.5rem;
+  background-color: black;
+  color: white;
+  letter-spacing: 0.5rem;
+}
+
+body .section-3 {
+  background-color: #f1f0ef;
+}
+
+body .bg3 {
+  background-image: url(../images/bg3.jpg);
+}
+
+body .bg3 article {
+  position: relative;
+  top: 50vh;
+  text-align: center;
+  font-size: 3rem;
+}
+
+body .bg3 article span {
+  padding: 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  outline: 0.6rem inset purple;
+  outline-offset: 1rem;
+  line-height: 2.5rem;
+  background-color: black;
+  color: white;
+  letter-spacing: 0.5rem;
+}
+
+body .section-4 {
+  background-color: black;
+  color: white;
+}
+
+body .bg4 {
+  background-image: url(../images/bg4.jpg);
+}
+
+body .bg4 article {
+  position: relative;
+  top: 50vh;
+  text-align: center;
+  font-size: 3rem;
+}
+
+body .bg4 article span {
+  padding: 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  outline: 0.6rem inset purple;
+  outline-offset: 1rem;
+  line-height: 2.5rem;
+  background-color: black;
+  color: white;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=main.css.map */
