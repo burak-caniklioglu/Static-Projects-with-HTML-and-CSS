@@ -15,6 +15,9 @@
 
 - [Read Newborn's Mind](#read-newborns-mind)
   - A website to understand the behavior of newborn babies that I created with the concept of parallax.
+
+- [Parallax Website Clarusway](#parallax-website-clarusway)
+  - The website that I created with the concept of parallax, promoting Clarusway
 ## Personal Website1
 <a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Personal_Website_1/html/index.html"><img src="./Personal_Website_1/images/screenshot.png" width = "100%"></a>
 
@@ -43,11 +46,18 @@
 <br>
 
 ## Google Landing Page
-<a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Google-Landing-Page/index.html"><img src="./Google-Landing-Page/images/SS.PNG" width = "100%"></a>
+<a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Parallax-Responsive-Website-Clarusway/index.html"><img src="./Google-Landing-Page/images/SS.PNG" width = "100%"></a>
 
 <br>
 <br>
 
 ## Read Newborn's Mind
 <a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Read-Newborn's-Mind/index.html"><img src="./Read-Newborn's-Mind/images/SS.PNG" width = "100%"></a>
+
+<br>
+<br>
+
+## Parallax Website Clarusway
+<a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Parallax-Responsive-Website-Clarusway/index.html"><img src="./Parallax-Responsive-Website-Clarusway/images/SS.PNG" width = "100%"></a>
+
 
