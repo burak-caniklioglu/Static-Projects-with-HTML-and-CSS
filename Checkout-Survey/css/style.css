@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    
+}
+
+header{
+    text-align: center;
+    margin: 1rem 0 3rem 0;
+    
+}
+
+main{
+    width: 60rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.survey{
+    width: 50%;
+}
+.contact > h3,.shipping>h3{
+    padding-bottom:1rem ;
+    
+}
+.labels{
+    margin: 10px 0;
+    color: #828282;
+    font-size: 12px;
+
+}
+.inputs{
+    position:relative;
+}
+
+.inputs input,.inputs select{
+    border: 1px solid #828282;
+    padding: 8px 5px 8px 35px;
+    
+    font-size: 14px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0.5rem 0;
+    
+}
+.inputs input::placeholder,.inputs select::placeholder{
+    color: #828282;
+}
+.inputs select{
+    color: black;
+    font-weight: 500;
+}
+.survey .fas{
+    position: absolute;
+    top: 35%;
+    left: 12px;
+    color: #828282;
+}
+.survey span,.require{
+    color: orange;
+    
+}
+
+.require{
+    flex-shrink: 0;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.shipping{
+    margin-top: 3rem;
+}
+
+.couple{
+    display: flex;
+}
+
+.post-code{
+    flex: 2;
+    margin-left: 1%;
+}
+
+.detail{
+    position: absolute;
+    background-color: #EEEEEE;
+    border-radius: 1rem;
+    left: 55%;
+    
+}
+
+.product{
+    margin: 1rem 1rem 0 1rem;
+    display: flex;
+    height: 9rem;
+}
+.image img{
+    width: 8rem;
+    margin: 0 1rem 2rem 0;
+    border-radius: 1rem;
+
+}
+
+.p-info>h4{
+    margin: 0.5rem 0;
+    color: gray;
+
+}
+
+.new-price{
+    color: orange;
+}
+.old-price{
+    color: #828282;
+    text-decoration:line-through;
+    font-weight: 400;
+}
+
+.inc-dis{
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 1rem;
+    width: 7rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.minus,.plus{
+    border: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 2px;
+    position: relative;
+    
+}
+.inc-dis> button{
+    background-color: rgb(223, 219, 219);
+    text-align: center;
+    cursor: pointer;
+}
+
+.total{
+    margin:1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total>p{
+    font-weight: 300;
+}
+hr{
+    margin: 1rem;
+}
+
+footer{
+    text-align: center;
+    margin-top: 2rem;
+}
+.continue{
+    background-color: orange;
+    color: white;
+    padding: 1rem ;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:575px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+        
+    }
+    main{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    .survey{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .detail{
+        position: static;
+        background-color: #EEEEEE;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+            
+    }
+    .couple{
+        display:flex;
+        flex-direction: column;
+    }
+    .post-code{
+        flex: 2;
+        margin: 0;
+    }
+    h1{
+        
+        font-size: 2rem;
+    }
+    .continue{
+        background-color: orange;
+        color: white;
+        padding: 1rem 2rem ;
+        border: none;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    
+    .survey{
+        width: 33%;
+        
+    }
+    
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    
+    .survey{
+        width: 42%;
+        
+    }
+    
+}

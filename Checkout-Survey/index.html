@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+        crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Checkout Survey</title>
+</head>
+<body>
+
+    
+    <header>
+        <h1>
+            Checkout
+        </h1>
+        
+    </header>
+
+    <main>
+        <div class="survey">
+            
+            
+            <form action="">
+                <div class="contact">
+                    <h3>Contact information</h3>
+                    <div class="email">
+                        <label class="labels" for="email">Email <span>*</span></label>
+                        <div class="inputs">
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" name="email" id="user-email" placeholder="Enter your email..." required></div>
+                        
+                        
+                    </div>
+
+                    <div class="phone">
+                        <label class="labels" for="phone">Phone <span>*</span></label>
+                        <div class="inputs">
+                        <i class="fas fa-phone-alt"></i>
+                        <input type="number" name="phone" id="user-phone" placeholder="Enter your phone..." required></div>
+                    </div>
+                </div>
+                
+                <div class="shipping">
+                    <h3>Shipping address</h3>
+                    <div class="full-name">
+                        <label class="labels" for="full-name">Full name <span>*</span></label>
+                        <div class="inputs">
+                        <i class="fas fa-user"></i>
+                        <input type="text" name="full-name" id="user-full-name" placeholder="Enter your Full name..." required></div>
+                    </div>
+                    <div class="address">
+                        <label class="labels" for="address">Address <span>*</span></label>
+                        <div class="inputs">
+                        <i class="fas fa-home"></i>
+                        <input type="text" name="address" id="user-address" placeholder="Enter your address..." required></div>
+                    </div>
+                    <div class="city">
+                        <label class="labels" for="city">City <span>*</span></label>
+                        <div class="inputs">
+                        <i class="fas fa-city"></i>
+                        <input type="text" name="city" id="user-city" placeholder="Enter your city..." required></div>
+                    </div>
+
+                    <div class="couple">
+                        <div class="country">
+                            <label class="labels" for="country">Country <span>*</span></label>
+                            
+                            
+                            <div class="inputs">
+                                <i class="fas fa-globe-europe"></i>
+                                <select >
+                                <option value="Turkey">Turkey</option>
+                                <option value="Germany">Germany</option>
+                                <option value="USA">USA</option>
+                                <option value="Canada">Canada</option>
+                                <option value="UK">UK</option>
+                                </select>
+                            </div>
+                            
+                            
+                        </div>
+
+                        <div class="post-code">
+                            <label class="labels" for="post-code">Post Code <span>*</span></label>
+                            <div class="inputs">
+                            <i class="fas fa-mail-bulk"></i>
+                            <input type="text" name="post-code" id="user-post-code" placeholder="Enter your postal code..." required></div>
+                        </div>
+                    </div>
+
+                    <div class="info">
+                        <div><input type="checkbox" name="info" id="user-info"  >
+                            <label class="labels" for="city">See this information next time</label></div>
+                        
+                            <span><label class="labels require" for="">* Required</label>
+                            </span>
+
+                        
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="detail">
+            <div class="product">
+                <div class="image">
+                    <img src="./images/photo1.png" alt="">
+                </div>
+                <div class="p-info">
+                    <h4>Vintage Backbag</h4>
+                    <span class="new-price">$54.99</span>
+                    <span class="old-price"><small>$94.99</small></span>
+
+                    <div class="inc-dis">
+                        <button class="minus"><i class="fas fa-minus"></i></button>
+                        <div class="num">1</div>
+                        <button class="plus"><i class="fas fa-plus"></i></button>
+
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div class="product">
+                <div class="image">
+                    <img src="./images/photo2.png" alt="">
+                </div>
+                <div class="p-info">
+                    <h4>Levi Shoes</h4>
+                    <span class="new-price">$74.99</span>
+                    <span class="old-price"><small>$124.99</small></span>
+
+                    <div class="inc-dis">
+                        <button class="minus"><i class="fas fa-minus"></i></button>
+                        <div class="num">1</div>
+                        <button class="plus"><i class="fas fa-plus"></i></button>
+
+                    </div>
+                </div>
+
+                
+            </div>
+            
+            
+            <br>
+            <hr>
+            <div class="total">
+                <p>Shipping</p>
+                <p>$19</p>
+            </div>
+            <hr>
+            <div class="total">
+                <p>Total</p>
+                <p>$148.98</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <button class="continue">Continue</button>
+    </footer>
+</body>
+</html>
