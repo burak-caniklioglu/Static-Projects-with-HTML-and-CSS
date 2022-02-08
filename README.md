@@ -46,7 +46,7 @@
 <br>
 
 ## Google Landing Page
-<a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Parallax-Responsive-Website-Clarusway/index.html"><img src="./Google-Landing-Page/images/SS.PNG" width = "100%"></a>
+<a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Google-Landing-Page/index.html"><img src="./Google-Landing-Page/images/SS.PNG" width = "100%"></a>
 
 <br>
 <br>
