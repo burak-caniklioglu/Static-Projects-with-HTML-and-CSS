@@ -18,6 +18,9 @@
 
 - [Parallax Website Clarusway](#parallax-website-clarusway)
   - The website that I created with the concept of parallax, promoting Clarusway
+
+- [Checkout Form](#checkout-form)
+  - I tried to create a checkout form with responsive design.
 ## Personal Website1
 <a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Personal_Website_1/html/index.html"><img src="./Personal_Website_1/images/screenshot.png" width = "100%"></a>
 
@@ -60,4 +63,8 @@
 ## Parallax Website Clarusway
 <a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Parallax-Responsive-Website-Clarusway/index.html"><img src="./Parallax-Responsive-Website-Clarusway/images/SS.PNG" width = "100%"></a>
 
+<br>
+<br>
 
+## Checkout Form
+<a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Checkout-Survey/index.html"><img src="./Checkout-Survey/images/SS.PNG" width = "100%"></a>
