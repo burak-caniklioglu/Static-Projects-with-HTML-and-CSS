@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+body{
+    max-width: 100%;
+    
+}
+#container{
+    display: grid;
+    grid-template-rows: 1fr 9.5fr 1.46fr;
+    
+}
+
+nav{
+    display: flex;
+    padding: 1rem 1rem;
+    color: rgb(230, 227, 227);
+    justify-content: space-between;
+    align-items: center;  
+    background-color: rgb(55, 62, 68);
+    border-bottom:2px solid  rgb(233, 20, 222);
+}
+
+#left #brand{
+    color: rgb(233, 20, 222);
+}
+
+#right{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: rgb(230, 227, 227);
+}
+a:visited{
+    color: rgb(233, 20, 222);
+}
+.nav{
+    margin-right: 1rem;
+}
+
+main{
+    display: grid;
+    grid-template-rows: 5fr 1.5fr 3fr;
+}
+
+.carrosel{
+    max-height: 100%;
+    background-image: url(../images/showcase.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.carrosel h1{
+    font-size: 3rem;
+}
+.carrosel p{
+    font-size: 1.5rem;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    background-color: rgb(55, 62, 68);
+    color: white;
+}
+
+input[type='email']{
+    padding: 0.4rem 0;
+}
+#btn{
+    padding: 0.5rem 1rem;
+    background-color: salmon;
+    border: none;
+    color: white;
+}
+.articles{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.art{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.art img,.art p,.art h2{
+    margin: 1rem 0;
+}
+.art img{
+    width: 10%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(55, 62, 68);
+    color: white;
+    
+}
+.sections,#services{
+    display: flex;
+    margin: 1rem;
+    
+}
+
+.section-left,.service-left{
+    flex: 2;
+    margin-right: 3rem;
+    
+}
+.top{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-align: justify;
+}
+.bottom{
+    background-color: rgb(55, 62, 68);
+    color: white;
+    padding: 1rem;
+    text-align: justify;
+}
+
+.section-right,.service-right{
+    flex: 1;
+    
+}
+
+.section-right div{
+    background-color: rgb(55, 62, 68);
+    color: white;
+    padding: 1rem;
+    text-align: justify;
+}
+
+#section{
+    display: grid;
+    grid-template-rows: 1fr 6.97fr;
+}
+.service-left>h2{
+    padding-left: 1rem;
+}
+.product{
+    background-color: #E6E6E6;
+    margin: 1rem;
+}
+.product h2,.product p{
+    padding: 1rem;
+}
+.service-right>div{
+    background-color: rgb(55, 62, 68);
+    margin-right: 1rem;
+    color: white;
+    padding: 1rem;
+
+}
+.service-right div{
+    padding-top: 1rem;
+    
+} 
+.service-right input{
+    width: 100%;
+    display: block;
+    height: 1.8rem;
+}
+textarea{
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+button{
+    background-color: salmon;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
