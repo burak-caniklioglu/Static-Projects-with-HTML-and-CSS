@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #main{
     position:fixed;
     background-image: url(../images/background.png);
@@ -12,18 +17,22 @@
 #container{
     position: relative;
     margin: auto;
-    width: 45%;
-    margin-top: 2%;
+    width: 40rem;
+    margin-top: 2rem;
+
     border-radius: 4rem;
     
     background: linear-gradient(to right, rgb(179, 203, 219) ,#4dd2e9,rgb(179, 203, 219) );
 }
 
 #temp{
-    margin: 3rem 9rem;
+    width: 80%;
+    margin: auto;
+    
 }
 
 header{
+    
     text-align: center; 
     
 }
@@ -35,7 +44,7 @@ header h1{
 }
 
 header p{
-    margin-top: -1rem;
+    margin-top: rem;
     font-family: 'Indie Flower', cursive;
 }
 label{
@@ -183,8 +192,8 @@ span{
       width: 100%;
   }
   #btn input{
-      width: 50%;
-      box-sizing: border-box;
+      width: 40%;
+      box-sizing: content-box;
       padding: 0.5rem 3rem 0.5rem  3rem;
       margin-bottom: 0.5rem;
       background-color: #501763;
@@ -202,4 +211,41 @@ span{
  
 #btn input:hover{
     background-color: #e25cd7;
+}
+
+@media screen and (max-width:767px){
+    #main{
+        position:static;    
+    }
+    #container{
+        position: static;
+        margin: auto;
+        width: 100%;
+        border-radius: 0;
+        
+        background: linear-gradient(to right, rgb(179, 203, 219) ,#4dd2e9,rgb(179, 203, 219) );
+    }
+    #temp{
+        width: 80%;
+        margin: auto;
+        
+    }
+    #blogs{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .button {
+        
+        width: 40%;
+        height: 45px;
+    }
+    .button label{  
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+  }
 }
