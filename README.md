@@ -22,7 +22,7 @@
 - [Checkout Form](#checkout-form)
   - I tried to create a checkout form with responsive design.
 ## Personal Website1
-<a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Personal_Website_1/html/index.html"><img src="./Personal_Website_1/images/screenshot.png" width = "100%"></a>
+<a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Personal_Website_1/"><img src="./Personal_Website_1/images/screenshot.png" width = "100%"></a>
 
 
 <br>
