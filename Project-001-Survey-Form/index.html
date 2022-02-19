@@ -13,73 +13,75 @@
 </head>
 <body>
     <div id="container">
-        <div id="header">
-            <h1 class="head" >Movie<span id="head-span">Reviews</span> </h1>
-            <p>Thank you for signing up at Netflix. Tell us more about yourself.</p>
-        </div>
-        <div id="main">
-            <form action="./result.html">
-                <br>
-                <label style="margin-top: 16px;" for="us-na" >Name</label>
-                <br>
-                <input class="header"  type="text" name="username" id="us-na" placeholder="Enter your name" required><br>
-
-
-                <label 
-                for="us-age">Age</label>
-                <br>
-                <input class="header age" type="number" name="age" id="us-age" placeholder="Age" required >  <br>
-
-
-                <label for="us-mail">Email</label>
-                <br>
-                <input class="header" type="email" name="email" id="us-mail" placeholder="Enter your email" required> <br> 
-
-
-                <label for="content">Content Type</label>
-                <br>
-                
-
-                <select name="content" id="content">
-                    <option value="Series">Series</option>
-                    <option value="Movies">Movies</option>
-                    <option value="">Documentaries</option>
-                </select><br>
-                <p><label class="cont-the"
-                    for="cont-the">Content Theme</label>
+        <div class="row">
+            <div id="header">
+                <h1 class="head" >Movie<span id="head-span">Reviews</span> </h1>
+                <p>Thank you for signing up at Netflix. Tell us more about yourself.</p>
+            </div>
+            <div id="main">
+                <form action="./result.html">
                     <br>
-                    <input type="checkbox" name="contentype1" id="comedy" value="Comedy"> 
-                    <label for="comedy">Comedy</label> <br> 
-    
-                    <input type="checkbox" name="contentype2" id="action" value="Action"> 
-                    <label for="action">Action</label> <br>     
-                    
-                    
-                    <input type="checkbox" name="contentype3" id="romance" value="Romance"> 
-                    <label for="romance">Romance</label> <br>   </p>
-                 
-                <div><label for="Gender">Gender</label><br>
-                    <input type="radio" name="gender" id="male" value="male" checked>
-                    <label for="male">Male</label><br>
-    
-                    <input type="radio" name="gender" id="female" value="female">
-                    <label for="female">Female</label><br>
-    
-                    <input type="radio" name="gender" id="other" value="other">
-                    <label for="other">Other</label><br></div>
+                    <label style="margin-top: 16px;" for="us-na" >Name</label>
                     <br>
-                
-
-                <label  for="">Feedback</label><br>
-                <textarea name="" id="textarea" cols="30" rows="5" placeholder="Any comment" style="resize:none"></textarea>
-                <br>
-                <br>
-
-
-                <div id="bt" ><input " type="submit" name="submit" id="btn" value="Submit"></div>
-                
-
-            </form>
+                    <input class="header"  type="text" name="username" id="us-na" placeholder="Enter your name" required><br>
+    
+    
+                    <label 
+                    for="us-age">Age</label>
+                    <br>
+                    <input class="header age" type="number" name="age" id="us-age" placeholder="Age" required >  <br>
+    
+    
+                    <label for="us-mail">Email</label>
+                    <br>
+                    <input class="header" type="email" name="email" id="us-mail" placeholder="Enter your email" required> <br> 
+    
+    
+                    <label for="content">Content Type</label>
+                    <br>
+                    
+    
+                    <select name="content" id="content">
+                        <option value="Series">Series</option>
+                        <option value="Movies">Movies</option>
+                        <option value="">Documentaries</option>
+                    </select><br>
+                    <p><label class="cont-the"
+                        for="cont-the">Content Theme</label>
+                        <br>
+                        <input type="checkbox" name="contentype1" id="comedy" value="Comedy"> 
+                        <label for="comedy">Comedy</label> <br> 
+        
+                        <input type="checkbox" name="contentype2" id="action" value="Action"> 
+                        <label for="action">Action</label> <br>     
+                        
+                        
+                        <input type="checkbox" name="contentype3" id="romance" value="Romance"> 
+                        <label for="romance">Romance</label> <br>   </p>
+                     
+                    <div><label for="Gender">Gender</label><br>
+                        <input type="radio" name="gender" id="male" value="male" checked>
+                        <label for="male">Male</label><br>
+        
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Female</label><br>
+        
+                        <input type="radio" name="gender" id="other" value="other">
+                        <label for="other">Other</label><br></div>
+                        <br>
+                    
+    
+                    <label  for="">Feedback</label><br>
+                    <textarea name="" id="textarea"  placeholder="Any comment" style="resize:none"></textarea>
+                    <br>
+                    <br>
+    
+    
+                    <div id="bt" ><input " type="submit" name="submit" id="btn" value="Submit"></div>
+                    
+    
+                </form>
+            </div>
         </div>
     </div>
 </body>
