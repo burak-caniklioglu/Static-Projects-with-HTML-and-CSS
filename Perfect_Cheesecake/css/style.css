@@ -1,8 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
 body{
     background:linear-gradient(to right, rgb(247, 236, 230),#fefefe  ,rgb(247, 236, 230) );
     font-size: 18px;
     word-spacing: 0.3rem;
     font-family: 'Lato', sans-serif;
+}
+
+
+
+
+.blogs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog{
+    margin:2rem 0;
+    text-align: center;
+    
+    
+}
+
+
+#header{
+    background:linear-gradient(to bottom,#ebf8f8 0, #fefefe 100%);
+}
+
+
+#ingre li{
+    
+    list-style-type:square;
+    
+}
+li,p,h3{
+    margin-bottom: 0.5rem;
+}
+img{
+    width: 100%;
+    display: block;
+    margin: 2rem 0;
+}
+
+
+#make li{
+    margin-bottom: 0.5rem;
+}
+
+#field{
+    display: flex;
+    justify-content: space-between;
+}
+#field p{
+    text-align: center;
+    margin: 0.2rem;
+    padding:  0.3rem;
+}
+fieldset{
+    width: 100%;
+}
+
+ol li::marker{
+    color: rgb(234, 0, 255);
 }
 
 @media screen and (min-width:1366px) {
@@ -36,80 +99,4 @@ body{
         margin: auto;
         
 }
-}
-
-
-.blogs{
-    margin: 0;
-    padding:  0;
-    display: flex;
-    justify-content: space-between;
-}
-
-.blog{
-    margin: auto;
-    text-align: center;
-    box-sizing: border-box;
-    margin-top: 2rem;
-}
-.blog p{
-    margin-top:-1rem;
-}
-
-#header{
-    background:linear-gradient(to bottom,#ebf8f8 0, #fefefe 100%);
-}
-
-#serv h4{
-    box-sizing: border-box;
-    margin-bottom: -1rem;
-}
-
-#ingre li{
-    padding-bottom: 0.8rem;
-    list-style-type:square;
-    
-}
-
-#ingre hr{
-    margin-top: -1rem;
-}
-
-#method hr{
-    margin-top: -1rem;
-}
-
-#method li h3{
-    box-sizing: border-box;
-    margin-bottom: -0.6rem;
-}
-img{
-    width: 100%;
-    display: block;
-    margin: 2rem 0;
-}
-
-#make hr{
-    margin-top: -1rem;
-}
-#make li h3{
-    box-sizing: border-box;
-    margin-bottom: -0.6rem;
-}
-
-#field{
-    display: flex;
-    justify-content: space-between;
-}
-#field p{
-    text-align: center;
-    margin: 0.2rem;
-    padding:  0.3rem;
-}
-fieldset{
-    width: 100%;
-}
-
-ol li::marker{
-    color: rgb(234, 0, 255);
 }
