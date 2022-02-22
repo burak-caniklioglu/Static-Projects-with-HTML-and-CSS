@@ -63,20 +63,7 @@ a:hover{
 .icon{
     margin-top: 7rem;
 }
-#search input{
-    position: relative;
-    right: 4rem;
-    border: none;
-    text-align: left;
-    padding: 0.5rem 0;
-    width: 80%;
-    position: absolute;
-    font-size: 1rem;
-    
 
-
-    
-}
 #search{
     width: 36rem;
     position: relative;
@@ -89,6 +76,14 @@ a:hover{
     padding: 0.22rem 0;
     border-radius: 25px;
     box-shadow: 1px 1px 3px 2px  rgba(193, 199, 193,1);
+}
+#search input{
+    
+    border: none;
+    text-align: left;
+    padding: 0.5rem 0;
+    width: 80%;
+    font-size: 1rem;
 }
 .sglass{
     position: relative;
@@ -106,7 +101,6 @@ a:hover{
     flex: 1;
 }
 .box2{
-    display: inline-block;
     flex: 6;
 }
 .box3{
@@ -187,4 +181,51 @@ a:hover{
     padding-top: 1rem;
     
     
+}
+
+@media screen and (max-width:576px){
+    
+    
+    
+    
+    
+    
+    #path{
+        padding-top: 4rem;    
+        width: 24rem;
+        display: grid;
+        grid-template:6rem / 1fr 1fr 1fr ; 
+    }
+
+    .path7,.path8, .path9, .path10{
+        display: none;
+    }
+    #search{
+        width: 20rem;
+       
+    }
+    .box2{
+        flex: 3;
+    }
+}
+
+
+@media screen and (min-width:577px) and (max-width:650px){
+    #path{
+        padding-top: 4rem;    
+        width: 30rem;
+        display: grid;
+        grid-template:6rem / 1fr 1fr 1fr 1fr; 
+    }
+    .path9, .path10{
+        display: none;
+    }
+
+    #search{
+        width: 28rem;
+       
+    }
+    .box2{
+        flex: 4;
+    }
 }
