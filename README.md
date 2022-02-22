@@ -21,6 +21,9 @@
 
 - [Checkout Form](#checkout-form)
   - I tried to create a checkout form with responsive design.
+
+- [Website Page Design](#website-page-design)
+  - It is multi-page website of a company providing web services
 ## Personal Website1
 <a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Personal_Website_1/"><img src="./Personal_Website_1/images/screenshot.png" width = "100%"></a>
 
@@ -68,3 +71,9 @@
 
 ## Checkout Form
 <a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Checkout-Survey/index.html"><img src="./Checkout-Survey/images/SS.PNG" width = "100%"></a>
+
+<br>
+<br>
+
+## Website Page Design
+<a href="https://burak-caniklioglu.github.io/Static-Projects-with-HTML-and-CSS/Website-Page-Design/index.html"><img src="./Website-Page-Design/images/SS.PNG" width = "100%"></a>
